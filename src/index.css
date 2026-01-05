@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coco-green: #A7D397;
+  --color-coco-blue: #92C7CF;
+  --color-coco-melon: #F99417;
+  --color-medical-purple: #7E30E1;
+  
+  --animate-marquee: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
