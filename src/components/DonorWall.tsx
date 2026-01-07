@@ -10,8 +10,7 @@ interface DonorWallProps {
 }
 
 export const DonorWall = ({ donors }: DonorWallProps) => {
-  // We double the list to create a seamless infinite loop effect
-  const displayDonors = [...donors, ...donors];
+  const displayDonors = donors;
 
   return (
     <div className="bg-medical-purple py-8 overflow-hidden">
@@ -23,7 +22,7 @@ export const DonorWall = ({ donors }: DonorWallProps) => {
       
       <div className="relative flex overflow-x-hidden">
         <motion.div
-          animate={{ x: ["0%", "-50%"] }}
+          animate={{ x: ["0%", "-100%"] }}
           transition={{ 
             ease: "linear", 
             duration: 30, 
