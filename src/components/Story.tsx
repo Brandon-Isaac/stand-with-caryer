@@ -9,7 +9,7 @@ export const Story = () => {
         {/* Story Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-black text-gray-900 mb-4">
-            Their <span className="text-medical-purple">Story</span>
+            Their <span className="text-medical-purple">Stories</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Two brothers united by love, courage, and an unbreakable bond—fighting sickle cell disease together.
@@ -52,7 +52,9 @@ export const Story = () => {
           </div>
           
           {/* Caryer's Donation Form */}
-          <CaryerDonationForm />
+          <div id="caryer-donate">
+            <CaryerDonationForm />
+          </div>
         </div>
 
         {/* Carney's Story */}
@@ -91,7 +93,9 @@ export const Story = () => {
           </div>
           
           {/* Carney's Donation Form */}
-          <CarneyDonationForm />
+          <div id="carney-donate">
+            <CarneyDonationForm />
+          </div>
         </div>
 
         {/* Combined Mission */}

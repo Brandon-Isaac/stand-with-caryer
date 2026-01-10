@@ -5,7 +5,7 @@ export const CaryerDonationForm = () => {
     <div className="mt-8">
       {/* Payment Methods Section */}
       <div className="mb-8">
-        <h3 className="text-2xl font-black text-center mb-6 uppercase text-medical-purple">Donate for Caryer</h3>
+        <h3 className="text-2xl font-black text-center mb-6 uppercase text-medical-purple">Donate for Caryer Geno</h3>
          <div className="grid md:grid-cols-1 gap-8 mb-8">
          {/* M-Changa */}
           <div className="bg-gradient-to-br from-[#475b06]/10 to-[#475b06]/5 p-6 rounded-2xl border-2 border-[#475b06]/20 hover:border-[#475b06] transition">

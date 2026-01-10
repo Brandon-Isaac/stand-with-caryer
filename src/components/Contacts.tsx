@@ -25,14 +25,14 @@ export const ContactDetails = () => {
           </div>
 
           {/* Email */}
-          <div className="bg-gradient-to-br from-coco-green/10 to-coco-green/5 p-6 rounded-2xl border-2 border-coco-green/20 hover:border-coco-green transition">
+          <div className="bg-gradient-to-br from-coco-blue/10 to-coco-blue/5 p-6 rounded-2xl border-2 border-coco-blue/20 hover:border-coco-blue transition">
             <div className="flex items-center gap-3 mb-4">
-              <Mail className="text-coco-green" size={28} />
+              <Mail className="text-coco-blue" size={28} />
               <h3 className="font-black text-lg text-gray-900">Email</h3>
             </div>
             <a 
               href="mailto:samokwanyo@gmail.com" 
-              className="text-coco-green hover:underline font-bold text-xl break-all"
+              className="text-coco-blue hover:underline font-bold text-xl break-all"
             >
               samokwanyo@gmail.com
             </a>
