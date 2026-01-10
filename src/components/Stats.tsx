@@ -22,13 +22,13 @@ export const Stats = ({ caryerAmount, carneyAmount }: StatsProps) => {
         <div className="flex justify-between items-end mb-4">
           <div>
             <p className="text-gray-500 font-bold uppercase tracking-wider text-sm">Raised So Far</p>
-            <h2 className="text-4xl lg:text-5xl font-black text-gray-900">
+            <h2 className="text-[30px] font-black text-gray-900">
               KES {currentAmount.toLocaleString()}
             </h2>
           </div>
           <div className="text-right">
             <p className="text-gray-500 font-bold uppercase tracking-wider text-sm">Target</p>
-            <p className="text-2xl font-bold text-gray-400">KES 12.0M</p>
+            <p className="text-[35px] font-black text-black">KES 12,000,000</p>
           </div>
         </div>
 
@@ -39,8 +39,8 @@ export const Stats = ({ caryerAmount, carneyAmount }: StatsProps) => {
             <div className="flex justify-between items-center mb-2">
               <h3 className="font-black text-lg text-medical-purple">CARYER</h3>
               <div className="text-right">
-                <p className="text-sm font-bold text-gray-600">
-                  KES {caryerAmount.toLocaleString()} / 5.0M
+                <p className="text-sm font-bold text-gray-800">
+                  KES {caryerAmount.toLocaleString()} <span className='text-[16px] font-bold text-gray-900' >/ 5,000,000</span>
                 </p>
               </div>
             </div>
@@ -62,8 +62,8 @@ export const Stats = ({ caryerAmount, carneyAmount }: StatsProps) => {
             <div className="flex justify-between items-center mb-2">
               <h3 className="font-black text-lg text-coco-blue">CARNEY</h3>
               <div className="text-right">
-                <p className="text-sm font-bold text-gray-600">
-                  KES {carneyAmount.toLocaleString()} / 7.0M
+                <p className="text-sm font-bold text-gray-800">
+                  KES {carneyAmount.toLocaleString()} <span className='text-[16px] font-bold text-gray-900' >/ 7,000,000</span>
                 </p>
               </div>
             </div>

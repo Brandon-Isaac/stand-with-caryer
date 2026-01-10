@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Hero } from './components/Hero';
 import { Stats } from './components/Stats';
 import { Story } from './components/Story';
-import { ContactDetails } from './components/DonorWall';
+import { ContactDetails } from './components/Contacts';
 import { Marquee } from './components/Marquee';
 import { AdminPanel } from './components/AdminPanel';
 import { supabase } from './lib/supabase';
