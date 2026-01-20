@@ -87,6 +87,30 @@ export const CaryerDonationForm = () => {
             </div>
           </div>
         </div>
+
+        {/* Direct Bank Transfer */}
+        <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 p-6 rounded-2xl border-2 border-blue-300 mt-8">
+          <div className="flex items-center gap-3 mb-4">
+            <Building2 className="text-blue-600" size={28} />
+            <h4 className="font-black text-lg text-gray-900">Direct Bank Transfer</h4>
+          </div>
+          <div className="space-y-4">
+            <div className="bg-white p-4 rounded-xl border border-blue-200">
+              <p className="text-gray-600 font-bold text-sm mb-2">NCBA Bank – Upper Hill Branch, Nairobi</p>
+              <div className="space-y-2">
+                <div>
+                  <p className="text-gray-600 font-bold text-base">KES Account: <span className="text-gray-900 text-xl font-black">1006709247</span></p>
+                </div>
+                <div>
+                  <p className="text-gray-600 font-bold text-base">USD Account: <span className="text-gray-900 text-xl font-black">1007320274</span></p>
+                </div>
+                <div className="pt-2 border-t border-gray-200">
+                  <p className="text-gray-500 text-xs">Account Name: Caryer Kendric Geno Medical Fund</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
